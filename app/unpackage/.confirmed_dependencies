@@ -1,0 +1,200 @@
+{
+	"index.html": {
+		"resources": [
+			"js/iscroll-probe.js",
+			"js/app.js",
+			"js/iscroll.js",
+			"js/jquery-2.1.0.js",
+			"iconfont/iconfont.woff",
+			"js/swiper-3.3.1.jquery.min.js",
+			"css/swiper-3.3.1.min.css",
+			"iconfont/iconfont.css",
+			"login.html",
+			"class.html",
+			"cart.html",
+			"myXiu.html",
+			"jieshao.html",
+			"more.html",
+			"css/page/index.css",
+			"js/page/index.js",
+			"js/touch.js",
+			"js/zepto.js"
+		],
+		"refer": [
+			"login.html",
+			"class.html",
+			"cart.html",
+			"myXiu.html",
+			"jieshao.html",
+			"more.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"index.html",
+			"register.html",
+			"iconfont/iconfont.woff",
+			"css/page/load.css",
+			"js/page/login.js"
+		],
+		"refer": [
+			"index.html",
+			"register.html"
+		]
+	},
+	"class.html": {
+		"resources": [
+			"classindex.html",
+			"index.html",
+			"cart.html",
+			"myXiu.html",
+			"more.html",
+			"js/page/class.js",
+			"css/page/class.css"
+		],
+		"refer": [
+			"classindex.html",
+			"index.html",
+			"cart.html",
+			"myXiu.html",
+			"more.html"
+		]
+	},
+	"classindex.html": {
+		"resources": [
+			"cart.html",
+			"class.html",
+			"index.html",
+			"jieshao.html",
+			"css/page/classindex.css",
+			"js/page/classindex.js"
+		],
+		"refer": [
+			"cart.html",
+			"class.html",
+			"index.html",
+			"jieshao.html"
+		]
+	},
+	"more.html": {
+		"resources": [
+			"login.html",
+			"cart.html",
+			"index.html",
+			"myXiu.html",
+			"css/page/more.css",
+			"js/page/more.js"
+		],
+		"refer": [
+			"login.html",
+			"cart.html",
+			"index.html",
+			"myXiu.html"
+		]
+	},
+	"cart.html": {
+		"resources": [
+			"myXiu.html",
+			"index.html",
+			"class.html",
+			"more.html",
+			"js/page/cart.js",
+			"css/page/cart.css"
+		],
+		"refer": [
+			"myXiu.html",
+			"index.html",
+			"class.html",
+			"more.html"
+		]
+	},
+	"myXiu.html": {
+		"resources": [
+			"more.html",
+			"img/11_03.png",
+			"cart.html",
+			"class.html",
+			"index.html",
+			"css/page/myXiu.css",
+			"js/page/myXiu.js"
+		],
+		"refer": [
+			"more.html",
+			"cart.html",
+			"class.html",
+			"index.html"
+		]
+	},
+	"register.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"jieshao.html": {
+		"resources": [
+			"xiangqing.html",
+			"index.html",
+			"js/app.js",
+			"js/jquery-2.1.0.js",
+			"iconfont/iconfont.woff",
+			"js/swiper-3.3.1.jquery.min.js",
+			"css/swiper-3.3.1.min.css",
+			"iconfont/iconfont.css",
+			"js/page/jieshao.js",
+			"css/page/jieshao.css"
+		],
+		"refer": [
+			"xiangqing.html",
+			"index.html"
+		]
+	},
+	"xiangqing.html": {
+		"resources": [
+			"index.html",
+			"shipai.html",
+			"js/page/xiangqing.js",
+			"css/page/xiangqing.css",
+			"jieshao.html"
+		],
+		"refer": [
+			"index.html",
+			"shipai.html",
+			"jieshao.html"
+		]
+	},
+	"shipai.html": {
+		"resources": [
+			"index.html",
+			"xiangqing.html",
+			"js/page/shipai.js",
+			"css/page/shipai.css",
+			"jieshao.html"
+		],
+		"refer": [
+			"index.html",
+			"xiangqing.html",
+			"jieshao.html"
+		]
+	},
+	"index1.html": {
+		"resources": [
+			"js/app.js",
+			"js/jquery-2.1.0.js",
+			"css/page/index1.css",
+			"js/swiper-3.3.1.jquery.min.js",
+			"css/swiper-3.3.1.min.css",
+			"index.html",
+			"img/2.jpg",
+			"img/6.jpg",
+			"img/4.jpg",
+			"img/3.jpg",
+			"img/5.jpg"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

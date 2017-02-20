@@ -1,0 +1,39 @@
+*{
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	html,body{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.cusSwiper{
+		width: 100%;
+		height: 100%;
+		/*background-color: yellow;*/
+	}
+	
+	.pageOne{
+		background: url(../../img/2.jpg);
+		background-size: 100% 100%;
+	}
+	.pageTwo{
+		background: url(../../img/3.jpg);
+		background-size: 100% 100%;
+	}
+	.pageThree{
+		background: url(../../img/4.jpg);
+		background-size: 100% 100%;
+	}
+	.pageFour{
+		background: url(../../img/5.jpg);
+		background-size: 100% 100%;
+	}
+	.pageFive{
+		background: url(../../img/6.jpg);
+		background-size: 100% 100%;
+	}
+	

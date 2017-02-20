@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header {
+	height: 46px;
+	background-color: #e4366b;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+header h3 {
+	line-height: 46px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	width: 60%;
+}
+
+header span {
+	color: #670d27;
+	width: 17%;
+	padding-left: 3%;
+	font-weight: bold;
+}
+
+header div {
+	width: 20%;
+}
+
+header div button {
+	border-bottom: 0.5px solid #a20c3c;
+	border-top: 0.5px solid #fff;
+	width: 80%;
+	height: 30px;
+	background-color: #e4366b;
+	border-radius: 5px;
+	color: #fff;
+}
+
+footer {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #616065;
+}
+
+#footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+#footer div {
+	height: 50px;
+	width: 33.3%;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1.6rem;
+	border-left: 1px solid #282828;
+}
+
+#footer div:nth-child(1) {
+	border-top: 2px solid #e4366b;
+	line-height: 48px;
+}
+
+nav {
+	height: 50px;
+	background-color: #52525a;
+	width: 100%;
+	position: relative;
+	top: 46px;
+	left: 0;
+	display: block;
+	line-height: 50px;
+	padding: 0 3%;
+	color: #fff;
+	font-size: 0.9rem
+}
+
+section {
+	width: 100%;
+	position: absolute;
+	top: 96px;
+	bottom: 50px;
+	text-align: center;
+	padding: 0 10%;
+	background-color: #f7f7f7;
+}
+
+section>div {
+	margin-top: 1rem;
+	height: 55%;
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+
+section>div img {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #ccc;
+}
+
+section>button {
+	width: 100%;
+	height: 2rem;
+	padding-left: 10%;
+	background-color: #e4366b;
+	color: #fff;
+	line-height: 2rem;
+	font-size: 1rem;
+	overflow: hidden;
+	white-space: normal;
+	position: relative;
+	text-overflow: ellipsis;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+}
+
+section>button>div {
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 100%;
+	background-color: #fff;
+	left: 5%;
+	top: 38%;
+}
+
+section>p {
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.75rem;
+	text-align: left;
+	color: #666;
+}
+
+section .peo {
+	float: right;
+}
+
+section .zhe {
+	margin-left: 0.8rem;
+}

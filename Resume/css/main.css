@@ -1,0 +1,775 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/*音乐*/
+#audioBtn{
+	position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 200;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/normalmusic.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    animation: ranges 2s linear infinite;
+	-webkit-animation: ranges 2s linear infinite;
+}
+
+
+.cusSwiper {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*第一页*/
+
+.pageOne {
+	width: 100%;
+	height: 100%;
+	background: url("../img/rmg42.png");
+	background-size: cover;
+	/*text-align: center;*/
+}
+
+.pageOne .header {
+	width: 1.92rem;
+	height: 1.92rem;
+	position: absolute;
+	left: 50%;
+	top: 0.46rem;
+	margin-left: -0.96rem;
+}
+
+.pageOne .header img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.pageOne .header img:nth-child(1) {
+	margin-left: -0.81rem;
+	margin-top: -0.81rem;
+	z-index: 2;
+}
+
+.pageOne .header img:nth-child(2) {
+	left: 0;
+	top: 0;
+	animation: ranges 2s linear infinite;
+	-webkit-animation: ranges 2s linear infinite;
+}
+
+.pageOne .header img:nth-child(3) {
+	margin-left: -0.87rem;
+	margin-top: -0.87rem;
+}
+
+.pageOne div:nth-child(2) {
+	position: absolute;
+	left: 50%;
+	top: 42%;
+	margin-left: -0.9rem;
+	width: 1.8rem;
+	height: 1.6rem;
+}
+
+.pageOne div:nth-child(2) span:nth-child(1) {
+	font-size: 0.15rem;
+	line-height: 0.2rem;
+	color: white;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.pageOne div:nth-child(2) span:nth-child(2) {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	color: white;
+	display: block;
+	text-align: center;
+}
+
+.pageOne div:nth-child(2) img {
+	position: absolute;
+}
+
+.pageOne div:nth-child(2) span:nth-child(4) {
+	font-size: 0.12rem;
+	color: white;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 0.1rem;
+}
+
+.pageOne div:nth-child(2) span:nth-child(5) {
+	font-size: 0.13rem;
+	font-weight: bold;
+	color: white;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0.08rem;
+}
+
+.pageOne div:nth-child(3) {
+	width: 70%;
+	height: 0.4rem;
+	border: 1px solid #fff;
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	margin-left: -35%;
+	border-radius: 0.2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #fff;
+}
+
+.pageOne div:nth-child(3) span {
+	display: inline-block;
+	padding: 0 0.2rem;
+	font-size: 0.3rem;
+}
+
+@-webkit-keyframes ranges {
+	0% {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes ranges {
+	0% {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+
+/*第二页*/
+
+.pageTwo {
+	width: 100%;
+	height: 100%;
+	background: url("../img/rmg25.jpg");
+	background-size: cover;
+	/*text-align: center;*/
+}
+
+.pageTwo div:nth-child(1) {
+	width: 100%;
+	height: 20%;
+	margin-top: 0.23rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.pageTwo div:nth-child(1) img {
+	width: 32%;
+}
+
+.pageTwo div:nth-child(1) div {
+	width: 1.21rem;
+	height: 1.21rem;
+}
+
+.pageTwo div:nth-child(1) div img {
+	position: absolute;
+}
+
+.pageTwo div:nth-child(1) div img:nth-child(1) {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.pageTwo div:nth-child(1) div img:nth-child(2) {
+	animation: Rotation 2s infinite ease-in-out;
+	-webkit-animation: Rotation 2s infinite ease-in-out;
+}
+
+.pageTwo div:nth-child(1) div img:nth-child(3) {
+	width: 0.74rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -0.37rem;
+	margin-top: -0.15rem;
+}
+
+.pageTwo ul {
+	width: 100%;
+	height: 55%;
+	position: absolute;
+	top: 28%;
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.pageTwo ul li {
+	width: 58%;
+	height: 20%;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.pageTwo ul li span {
+	display: inline-block;
+	width: 0.95rem;
+	height: 0.36rem;
+	background: url("../img/rmg18.png") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	font-size: 0.2rem;
+	line-height: 0.36rem;
+	color: #FFFFFF;
+}
+
+.pageTwo ul li img:nth-child(4) {
+	width: 7.5rem;
+	height: 0.08rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -3.75rem;
+	bottom: 0;
+}
+
+@keyframes Rotation {
+	0% {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes Rotation {
+	0% {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+
+/*3-8页头部*/
+
+.info1 {
+	width: 100%;
+	height: 0.69rem;
+	position: absolute;
+	top: 14%;
+}
+
+.info1 .sp1 {
+	display: block;
+	width: 100%;
+	font-size: 0.16rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
+	padding-left: 0.11rem;
+	color: #fff;
+	position: absolute;
+	top: 0.58rem;
+}
+
+.info1 div {
+	display: inline-block;
+	width: 33%;
+	height: 0.4rem;
+	margin: auto;
+	background: url("../img/rmg29.png");
+	background-size: 100% 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.info1 div span {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.2rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.4rem;
+	padding: 0;
+	letter-spacing: 0;
+	top: 0;
+}
+
+
+/*第三页*/
+
+.pageThree {
+	width: 100%;
+	height: 100%;
+	background: url("../img/rmg28.png") no-repeat;
+	background-size: 100% 108%;
+	background-position: center;
+	background-position-y: -0.51rem;
+}
+
+
+/*信息展示*/
+
+#pgdv2 {
+	width: 80%;
+	height: 60%;
+	background: url("../img/rmg50.png");
+	background-size: 100% 100%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-left: -1.5rem;
+}
+
+
+/*姓名，应聘职位*/
+
+#pgdv2_1 {
+	width: 60%;
+	height: 0.66rem;
+	margin: auto;
+	position: absolute;
+	top: 0.37rem;
+	left: 50%;
+	margin-left: -0.9rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	        align-items: center;
+}
+
+#pgdv2_1_1 {
+	width: 100%;
+	height: 0.36rem;
+	top: 0;
+	left: 0;
+	margin: 0;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#pgdv2_1_1 img:nth-child(1) {
+	position: absolute;
+	left: 0;
+	top:50%;
+	margin-top: -0.11rem;
+}
+
+#pgdv2_1_1 img:nth-child(3) {
+	position: absolute;
+	right: 3px;
+	top:50%;
+	margin-top: -0.11rem;
+}
+
+#pgdv2_1_1 span {
+	width: 1.20rem;
+	height: 0.36rem;
+	background: url("../img/rmg30.png");
+	background-size: 100% 100%;
+	font-size: 0.24rem;
+	color: #666;
+	text-align: center;
+	line-height: 0.36rem;
+	font-weight: bold;
+}
+
+#pgdv2_1 .zwdv {
+	display: inline-block;
+	font-size: 0.16rem;
+	color: #666;
+	letter-spacing: 0;
+	line-height: 0;
+}
+
+
+/*就业信息*/
+
+.pageThree #pgdv2 #Info {
+	list-style: none;
+	width: 80%;
+	height: 60%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-left: -1.19rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column nowrap;
+	flex-flow: column nowrap;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.pageThree #pgdv2 #Info li {
+	width: 90%;
+	height: 0.4rem;
+	font-size: 0.15rem;
+	color: #333;
+	background: url("../img/rmg27.png");
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 0.4rem;
+}
+/*第四页*/
+.pageFour {
+	width: 100%;
+	height: 100%;
+	background: url("../img/rmg31.png") no-repeat;
+	background-size: 100% 108%;
+	background-position: center;
+	background-position-y: -0.51rem;
+}
+/*技能标题*/
+.pageFour .title {
+	display: inline-block;
+	width: 40%;
+	height: 0.4rem;
+	position: absolute;
+	top: 32%;
+	left: 30%;
+	font-size: 0.3rem;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	line-height: 0.4rem;
+}
+/*技能柱状图展示熟练度*/
+#info2 {
+	width: 100%;
+	height: 56%;
+	position: absolute;
+	top: 38%;
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#info2 li {
+	width: 80%;
+	height: 20%;
+	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#info2 li .tip1 {
+	width: 0.6rem;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-right: 0.1rem;
+	border-radius: 50%;
+	background-image: url("../img/rmg6.png");
+	background-size: 100% 100%;
+}
+
+#info2 li .tip2 {
+	width: 2rem;
+	height: 0.4rem;
+	border: 1px dotted green;
+	margin-left: 0.1rem;
+	padding: 0.05rem;
+}
+
+#info2 li .tip2 div {
+	width: 100%;
+	height: 100%;
+	background-color: #60978F;
+	position: relative;
+}
+
+#info2 li .tip2 div .rundv {
+	width: 85%;
+	height: 100%;
+	background-color: #7FF6E5;
+	
+}
+
+#info2 li .tip2 div span {
+	font-size: 0.24rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.pageFive {
+	width: 100%;
+	height: 100%;
+	background: url("../img/rmg9.png") no-repeat;
+	background-size: 100% 108%;
+	background-position: center;
+	background-position-y: -0.51rem;
+}
+
+.pageFive .title {
+	display: inline-block;
+	width: 60%;
+	height: 0.4rem;
+	position: absolute;
+	top: 32%;
+	left: 20%;
+	font-size: 0.3rem;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	line-height: 0.4rem;
+}
+
+.pageFive #info2 li .tip1 {
+	width: 0.75rem;
+	height: 0.75rem;
+	font-size: 0.18rem;
+	font-weight: bold;
+	line-height: 0.75rem;
+	text-align: center;
+	margin-right: 0.1rem;
+	border-radius: 50%;
+	background-image: url("../img/rmg6.png");
+	background-size: 100% 100%;
+}
+
+.pageSix {
+	width: 100%;
+	height: 100%;
+	background: url("../img/rmg32.png") no-repeat;
+	background-size: 100% 108%;
+	background-position: center;
+	background-position-y: -0.51rem;
+}
+
+.pageSix ul {
+	width: 100%;
+	height: 60%;
+	position: absolute;
+	top: 38%;
+	list-style: none;
+	background: url("../img/rmg36.png") no-repeat;
+	background-position-x: 0.5rem;
+	background-size: 1.26rem 4rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.pageSix ul li {
+	width: 78.2%;
+	height: 15%;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-size: 0.16rem;
+	color: #fff;
+}
+
+.pageSix ul li span:nth-child(2) {
+	display: inline-block;
+	margin-left: 0.1rem;
+}
+
+.pageSix ul li span:nth-child(3) {
+	display: inline-block;
+	border: 2px dashed #eee;
+	padding: 0.05rem;
+	margin-left: 0.05rem;
+}
+
+.pageSeven {
+	width: 100%;
+	height: 100%;
+	background: url("../img/rmg37.jpg") no-repeat;
+	background-size: 100% 108%;
+	background-position: center;
+	background-position-y: -0.51rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.pageSeven div:nth-child(1) {
+	position: relative;
+}
+
+.pageSeven div:nth-child(2) {
+	width: 55%;
+	position: relative;
+	top: 19%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.pageSeven div:nth-child(2) span {
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	margin-top: 0.2rem;
+}
+
+.pageSeven div:nth-child(3) {
+	display: inline-block;
+	border: 2px dashed #fff;
+	padding: 0.05rem 0.1rem;
+	color: #fff;
+	position: relative;
+	top: 25%;
+	font-size: 0.24rem;
+}
+
+.pageSeven div:nth-child(4) {
+	display: inline-block;
+	border: 2px dashed #fff;
+	color: #fff;
+	padding: 0.05rem 0.1rem;
+	position: relative;
+	top: 28%;
+	font-size: 0.24rem;
+}
+
+.pageSeven img:nth-child(5) {
+	position: relative;
+	top: 36%;
+}
